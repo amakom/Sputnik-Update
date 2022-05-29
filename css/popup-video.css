@@ -1,0 +1,27 @@
+body {
+  background-image: url("https://www.solodev.com/assets/hero/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mfp-hide {
+    display: none!important;
+}
+
+span {
+    font-size: 23px;
+    font-size: 2.3rem;
+    display: block;
+    font-family: "museo-sans", Arial, Verdana;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 25px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+.content {
+  text-align: center;
+}
