@@ -68,7 +68,7 @@ ul {
   color: var(--white);
 }
 .btn-1 {
-  background-color: var(--main-color-2);
+  background-color: var(--color-2);
   color: var(--white);
   margin: 2px;
 }
