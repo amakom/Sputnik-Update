@@ -74,7 +74,7 @@ ul {
 }
 .btn-1:hover {
   background-color: transparent;
-  border-color: var(--main-color-2);
+  border-color: var(--main-color);
   color: var(--white);
 }
 .btn-video {
@@ -314,13 +314,14 @@ ul {
   About Us Section
 -------------------------------*/
 .about-us{
+  background-color: var(--bg-dark);
 }
 .about-us .about-detail p{
   text-align: justify;
   margin-top: 0;
   margin: 10px;
   padding: 30px;
-  color: var(--black-400);
+  color: var(--white);
 }
 
 .about-us .bullets h3{
@@ -340,42 +341,48 @@ ul {
   font-size: 16px;
   font-weight: 400;
   block-size: auto;
+  color: var(--white);
 }
 
 /*-----------------------------
-  Navigation Section
+  Navigation Bot Section
 -------------------------------*/
-/*.sputnik-bot{
-  justify-items: center;
+.bot-section {
+  background-color: var(--bg-dark);
 }
-.sputnik-bot-img img{
-  max-width: 600px;
-  width: 100%;
-  animation: bounceTop_01 3s ease infinite;
-}
-.sputnik-bot-text,
-.sputnik-bot-img {
+.bot-text,
+.bot-img {
+  width: 50%;
   padding: 0 15px;
 }
-.sputnik-bot h1 {
+.bot-img {
+  max-width: 600px;
+}
+.bot-text h1 {
   font-size: 50px;
   font-weight: 700;
-  color: var(--black-900);
+  color: var(--white);
   text-transform: capitalize;
   line-height: 1.2;
 }
-.sputnik-bot h3 {
+.bot-text h3 {
   font-size: 24px;
   font-weight: 300;
-  color: var(--black-400);
+  color: var(--white);
   margin: 15px 0 40px;
-}*/
+}
+.bot-img-inner {
+  max-width: 1000px;
+  margin: auto;
+}
 
 /*-----------------------------
  toknomics Section
 -------------------------------*/
 .toknomics{
-  background-image: url(../images/Group\ 247.svg)
+  background-image: url(../images/Star.svg);
+  background-repeat: no-repeat;
+  
 }
 .toknomics img{
   margin: 10px;
