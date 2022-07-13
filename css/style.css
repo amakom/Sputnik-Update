@@ -783,6 +783,9 @@ ul {
   .bot-img {
     width: 100%;
   }
+  .section-title h1{
+    text-align: center;
+  }
   .contact-form h2 {
     font-size: 50px;
   }
