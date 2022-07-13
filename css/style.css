@@ -766,7 +766,7 @@ ul {
   .home-text,
   .home-img,
   .bot-text,
-  .bot-img,
+  .bot-img .section-title h1,
   .section-title p {
     width: 100%;
   }
@@ -780,7 +780,7 @@ ul {
   .home-text,
   .home-img,
   .bot-text,
-  .bot-img {
+  .bot-img .section-title h1 {
     width: 100%;
   }
   .contact-form h2 {
