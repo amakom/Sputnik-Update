@@ -50,4 +50,9 @@ $(document).ready(function() {
             }
         }
     });
+    /*------------------ Page Scroll ---------------------- */
+    $.scrollIt({
+        topOffset: -50
+    });
+
 });

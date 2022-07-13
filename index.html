@@ -43,7 +43,7 @@
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <!-- Brand -->
-            <a class="navbar-brand" href="index.html"><img src="/Images/LOGO WHITE.png" alt=""></a>
+            <a class="navbar-brand" data-scroll-goto="0" href="#"><img src="/Images/LOGO WHITE.png" alt=""></a>
       
             <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -54,22 +54,22 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">home</a>
+                        <a class="nav-link active" data-scroll-nav="0" href="#">home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">about us</a>
+                        <a class="nav-link" data-scroll-nav="1" href="#">about us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">toknomics</a>
+                        <a class="nav-link" data-scroll-nav="2" href="#">toknomics</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">team</a>
+                        <a class="nav-link" data-scroll-nav="3" href="#">team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">contact us</a>
+                        <a class="nav-link" data-scroll-nav="4" href="#">timeline</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">enter app</a>
+                        <a class="nav-link" data-scroll-nav="5" href="#">contact us</a>
                     </li>
                 </ul>
             </div>
@@ -78,7 +78,7 @@
     <!-- Header End -->
 
     <!-- Home Start -->
-    <section class="home d-flex align-items-center">
+    <section class="home d-flex align-items-center" id="home" data-scroll-index="0">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
@@ -101,7 +101,7 @@
     </section>
     <!-- Home End -->
     <!-- About Us Section Start -->
-    <section class="about-us section-padding">
+    <section class="about-us section-padding" id="about-us" data-scroll-index="1">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -161,7 +161,7 @@
     <!--- Sputnik Bot Section End -->
 
     <!-- Toknomics Section Start -->
-    <section class="toknomics section-padding">
+    <section class="toknomics section-padding" id="toknomics" data-scroll-index="2">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -177,8 +177,8 @@
     </section>
     <!-- Toknomics Section End -->
 
-    <!-- Features Section Start -->
-    <section class="features section-padding">
+    <!-- Team Section Start -->
+    <section class="features section-padding" id="team" data-scroll-index="3">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -286,7 +286,7 @@
     <!-- Feature Section End -->
 
     <!--- Timeline Section Start -->
-    <section class="timeline-section section-padding">
+    <section class="timeline-section section-padding" id="timeline" data-scroll-index="4">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -397,7 +397,7 @@
 
 
     <!--- Contact Section Start -->
-  <section class="contact-section section-padding">
+  <section class="contact-section section-padding" data-scroll-index="5">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -439,12 +439,11 @@
             <div class="footer-item footer-quick-links">
               <h2>quick links</h2>
               <ul>
-                  <li><a href="toknomics.html">Tokenomics</a></li>
-                  <li><a href="litepaper.html">Litepaper</a></li>
-                  <li><a href="team.html">Team</a></li>
-                  <li><a href="contact-us.html">Contact Us</a></li>
-                  <li><a href="Login.html">Login</a></li>
-                  <li><a href="Sign Up.html">Sign Up</a></li>
+                  <li><a href="#home">home</a></li>
+                  <li><a href="#about-us">about us</a></li>
+                  <li><a href="#toknomics">toknomics</a></li>
+                  <li><a href="#team">team</a></li>
+                  <li><a href="#timeline">timeline</a></li>
               </ul>
           </div>
           <div class="footer-item footer-contact">
@@ -476,14 +475,22 @@
 
 
 <!--- Script Source Files -->
-<script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
+<!-- Jquery js -->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <!--===============================================================================================-->
+<!-- Popper js -->
 <script type="text/javascript" src="js/popper.min.js"></script>
 <!--===============================================================================================-->
+<!-- Bootstrap -->
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
+<!-- Owl.carousel js -->
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 <!--===============================================================================================-->
+<!-- Scrollit js -->
+<script type="text/javascript" src="js/scrollIT.min.js"></script>
+<!--===============================================================================================-->
+<!-- Main js -->
 <script src="js/main.js"></script>
 <!--===============================================================================================-->
 <script src=""></script>
